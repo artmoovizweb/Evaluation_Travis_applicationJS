@@ -24,7 +24,7 @@ deploy:
    provider: heroku
    api_key:
     secure: 6dfdc08f-f2eb-4dbb-8493-d551cf5491d5
-    app: app-travis
-    on:
-      repo: artmoovizweb / Evaluation_Travis_applicationJS
-      branch: dev
+  app: app-travis
+  on:
+    repo: artmoovizweb / Evaluation_Travis_applicationJS
+    branch: masters

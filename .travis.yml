@@ -1,18 +1,19 @@
 language: node_js
 node_js:
-- "12"
+   - "12"
 
 # cache:
 #   directories:
 #   - "$HOME/.composer/cache"
 
 install:
-- npm install
+   - npm install
 
-before_script: true
+before_script:
+  - npm install grunt-cli -g
 
 script:
-- echo "Salut"
+   - echo "Salut"
 
 after_script: true
 

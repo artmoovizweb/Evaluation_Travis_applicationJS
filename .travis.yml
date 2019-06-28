@@ -12,9 +12,9 @@ install:
 before_script: true
 
 script:
-   - './node_modules/.bin/JsHint'
-   - './node_modules/.bin/Retire'
-   - './node_modules/.bin/Twly'
+   - "./node_modules/.bin/jsHint"
+   - "./node_modules/.bin/retire"
+   - "./node_modules/.bin/twly"
 
 after_script: true
 
